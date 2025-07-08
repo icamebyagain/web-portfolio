@@ -24,6 +24,15 @@
     cursor: ;
     
 }
+.section-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+}
+.section-description{
+    font-size: 18px;
+   
+}
 nav{
     display: flex;
     align-items: center;
@@ -76,4 +85,18 @@ nav ul{
     background-image: url('../images/developer.png'), url('../images/header_bg.png');
     background-repeat: no-repeat;
     background-position: top left, bottom right;
+}
+.sec-bg{
+    background-color:#FFF8F3;
+}
+/* about-styles */
+.about{
+    border-radius: 10px;
+    padding: 130px 150px;
+}
+/* main-styles */
+main{
+max-width: 1140px;
+margin: 0 auto;
+
 }
